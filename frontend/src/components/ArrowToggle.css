@@ -1,0 +1,26 @@
+.arrow-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff8c; 
+    border-radius: 15px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #333; 
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow-container.expanded .arrow {
+    transform: rotate(180deg); 
+  }
+  

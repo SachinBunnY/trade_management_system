@@ -1,0 +1,78 @@
+
+.modal-overlay {
+    background-color: #d7d4cef7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  
+    align-items: center;    
+    background-color: #0000002e;
+    z-index: 1000;
+  }
+  
+.modal-content {
+    background-color: #dde4bca1;
+    /* background-color: #fff; */
+    padding: 1rem;
+    border-radius: 1.5rem;
+    max-width: 450px;
+    width: 32%;
+    height: 145px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    align-items: center;
+    text-align: center;
+    font-family: monospace;
+
+
+  }
+.modal-text{
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+    color: #505050;
+}
+.modal-btn-div{
+    width: 50%;
+    float: right;
+    margin: 1.5rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.yes-btn, .no-btn, .modify-stoploss-input-box{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 700;
+    font-family: monospace;
+    border: 1px solid #000000;
+    transition: all 0.1s ease-in-out;
+}
+
+.yes-btn{
+    background-color: #b0a993;
+    color: #fff !important;
+}
+.yes-btn:hover{
+    border: 1px solid black;
+    background-color: #d9c27b;
+}
+.no-btn:hover{
+    border: 1px solid grey;
+    background-color: rgba(219, 217, 217, 0.74);
+}
+.yes-btn:active {
+    transform: scale(0.95);
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+.no-btn:active {
+    transform: scale(0.95);
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+

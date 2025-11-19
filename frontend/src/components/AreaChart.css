@@ -1,0 +1,15 @@
+.chart-container {
+    width: 90vw;  
+    height: 100%;
+    display: flex;
+  }
+  .chart-div {
+    width: 100%;
+    height: 350px;
+  }
+  
+.model-chart-container{
+  width: 28vw;  
+  height: 100%;
+  /* display: flex; */
+}
